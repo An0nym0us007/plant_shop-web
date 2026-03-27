@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leafy Plant Shop</title>
+    <link rel="stylesheet" href="plants.css">
+
+</head>
+<body>
+    <header>
+  <h1 style="color: #0e740e;;">Leafy</h1>
+  <nav>
+    <a href="homepage.html">Home</a>
+    <a href="plants.html">Plants</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<center>
+
+<section class="section" id="plants">
+  <h2>Our Plants</h2>
+  <div class="plants">
+
+    <div class="card">
+      <img src="image/AloeVera.jpg" height="60%" />
+      </a>
+      <h3>Aloe Vera</h3>
+      <h4>₱100</h4>
+      <button onclick="addToCart('Aloe Vera')">Buy</button>
+    </div>
+
+   <div class="paragraph">
+    <p>
+    Fleshy, lance-shaped leaves with serrated edges containing small white teeth, often featuring white flecks on the surface.
+    Grows in a rosette pattern, reaching 1–2 feet tall.
+    The inner leaf parenchyma produces a clear, viscous gel.
+    Produces yellow-orange tubular flowers on a spike during winter or spring. 
+    Grown as a low-maintenance, drought-tolerant houseplant or in xeric gardens. 
+    </p>
+</div>
+</center>
+
+    <section class="section" id="about">
+    <h2>About Leafy</h2>
+    <p> In the heart of Maybubon, Leafy's Garden cultivates top quality plants. Our dedication in growing the finest plants in the world. We monitor our plants throughout the season to ensure you receive top quality plants. Join the thousands of satisfied plant lovers who have watch their gardens burst and bloom with plants from Leafy's Garden.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: nature@leafy.com</p>
+</section>
+
+
+
+<footer>
+  <p>© 2026 Leafy Plant Shop</p>
+</footer>
+
+    <script>
+  function addToCart(plant) {
+    alert(plant + ' Has been purchased!');
+  }
+</script>
+
+    
+</body>
+</html>

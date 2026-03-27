@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leafy Plant Shop</title>
+  <link rel="stylesheet" href="style.css">
+  
+ 
+</head>
+
+<header>
+  <h1 style="color: #0e740e;;">Leafy</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="plants.html">Plants</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="qoute">
+  <h2>Simple Plants, Beautiful Spaces</h2>
+</section>
+
+<section class="section" id="plants">
+  <h2>Popular Now</h2>
+  <div class="plants">
+
+    <div class="card">
+      <a href="snakePlant.html" target="_self">
+      <img src="image/SnakePlant.webp" height="60%"/>
+      </a>
+      <h3>Snake Plant</h3>
+      <h4>₱100</h4>
+      <button onclick="addToCart('Snake Plant')">Buy</button>
+    </div>
+
+    <div class="card">
+      <a href="monstera.html" target="_self">
+      <img src="image/Monstera.avif" height="60%"/>
+    </a>
+      <h3>Monstera</h3>
+      <h4>₱800</h4>
+      <button onclick="addToCart('Monstera')">Buy</button>
+    </div>
+
+    <div class="card">
+      <a href="peaceLily.html" target="_self">
+      <img src="image/PeaceLily.webp" height="60%">
+      </a>
+
+      <h3>Peace Lily</h3>
+      <h4>₱150</h4>
+      <button onclick="addToCart('Peace Lily')">Buy</button>
+    </div>
+
+  </div>
+  </section>
+
+  
+<section class="section" id="about">
+    <h2>About Leafy</h2>
+    <p> In the heart of Maybubon, Leafy's Garden cultivates top quality plants. Our dedication in growing the finest plants in the world. We monitor our plants throughout the season to ensure you receive top quality plants. Join the thousands of satisfied plant lovers who have watch their gardens burst and bloom with plants from Leafy's Garden.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: nature@leafy.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Leafy Plant Shop</p>
+</footer>
+
+<script>
+  function addToCart(plant) {
+    alert(plant + ' Has been purchased!');
+  }
+</script>
+
+</body>
+</html>
